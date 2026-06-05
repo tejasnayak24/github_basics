@@ -1,0 +1,224 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background:#f4f7fc;
+            color:#333;
+        }
+
+        /* Navbar */
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 10%;
+            background:white;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo{
+            font-size:28px;
+            font-weight:bold;
+            color:#4f46e5;
+        }
+
+        .nav-links a{
+            text-decoration:none;
+            color:#333;
+            margin-left:25px;
+            font-weight:500;
+            transition:0.3s;
+        }
+
+        .nav-links a:hover{
+            color:#4f46e5;
+        }
+
+        /* Hero Section */
+        .hero{
+            min-height:90vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:20px;
+            background:linear-gradient(135deg,#4f46e5,#7c3aed);
+            color:white;
+        }
+
+        .hero-content{
+            max-width:800px;
+        }
+
+        .hero h1{
+            font-size:3.5rem;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:1.2rem;
+            line-height:1.8;
+            margin-bottom:30px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:14px 30px;
+            margin:10px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn-primary{
+            background:white;
+            color:#4f46e5;
+        }
+
+        .btn-primary:hover{
+            transform:translateY(-3px);
+        }
+
+        .btn-secondary{
+            border:2px solid white;
+            color:white;
+        }
+
+        .btn-secondary:hover{
+            background:white;
+            color:#4f46e5;
+        }
+
+        /* Features */
+        .features{
+            padding:80px 10%;
+            text-align:center;
+        }
+
+        .features h2{
+            font-size:2.5rem;
+            margin-bottom:50px;
+            color:#4f46e5;
+        }
+
+        .feature-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 10px 20px rgba(0,0,0,0.08);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card h3{
+            color:#4f46e5;
+            margin-bottom:15px;
+        }
+
+        .card p{
+            color:#666;
+        }
+
+        /* Footer */
+        footer{
+            background:#1f2937;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AttendTrack</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Login</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Smart Attendance Management System</h1>
+
+            <p>
+                Simplify attendance tracking with real-time monitoring,
+                automated reports, and secure student management.
+                Designed for schools, colleges, and organizations.
+            </p>
+
+            <a href="#" class="btn btn-primary">Mark Attendance</a>
+            <a href="#" class="btn btn-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+                <h3>📊 Analytics</h3>
+                <p>
+                    Generate detailed attendance reports and performance insights.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>⚡ Fast Tracking</h3>
+                <p>
+                    Mark and monitor attendance instantly with minimal effort.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔒 Secure Data</h3>
+                <p>
+                    Protect student and employee records with secure storage.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Mobile Friendly</h3>
+                <p>
+                    Access attendance records from any device, anytime.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Attendance Management System | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+```
